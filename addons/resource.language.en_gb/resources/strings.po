@@ -20436,6 +20436,10 @@ msgctxt "#66011"
 msgid "- Mimetypes"
 msgstr ""
 
+msgctxt "#70117"
+msgid "No Software Deinterlacing"
+msgstr ""
+
 msgctxt "#70600"
 msgid "Save settings..."
 msgstr ""
@@ -20661,62 +20665,66 @@ msgid "DXVA2 (native)"
 msgstr ""
 
 msgctxt "#80205"
-msgid "Top-Field first"
-msgstr ""
-
-msgctxt "#80206"
-msgid "Bottom-Field first"
-msgstr ""
-
-msgctxt "#80207"
-msgid "Aggressive"
-msgstr ""
-
-msgctxt "#80208"
-msgid "Force"
-msgstr ""
-
-msgctxt "#80209"
-msgid "Disabled (progressive)"
+msgid "D3D11"
 msgstr ""
 
 msgctxt "#80210"
-msgid "25p/30p (Film)"
+msgid "Top-Field first"
 msgstr ""
 
 msgctxt "#80211"
-msgid "50p/60p (Video)"
+msgid "Bottom-Field first"
 msgstr ""
 
 msgctxt "#80212"
-msgid "Ordered Dithering"
+msgid "Aggressive"
 msgstr ""
 
 msgctxt "#80213"
-msgid "Random Dithering"
+msgid "Force"
 msgstr ""
 
 msgctxt "#80214"
-msgid "TV (16/235)"
+msgid "Disabled (progressive)"
 msgstr ""
 
 msgctxt "#80215"
-msgid "PC (0-255)"
+msgid "25p/30p (Film)"
 msgstr ""
 
 msgctxt "#80216"
-msgid "Untouched (as input)"
+msgid "50p/60p (Video)"
 msgstr ""
 
 msgctxt "#80217"
-msgid "YADIF"
+msgid "Ordered Dithering"
 msgstr ""
 
 msgctxt "#80218"
-msgid "Weston Three Field (simple)"
+msgid "Random Dithering"
 msgstr ""
 
 msgctxt "#80219"
+msgid "TV (16/235)"
+msgstr ""
+
+msgctxt "#80220"
+msgid "PC (0-255)"
+msgstr ""
+
+msgctxt "#80221"
+msgid "Untouched (as input)"
+msgstr ""
+
+msgctxt "#80222"
+msgid "YADIF"
+msgstr ""
+
+msgctxt "#80223"
+msgid "Weston Three Field (simple)"
+msgstr ""
+
+msgctxt "#80224"
 msgid "Weston Three Field (complex)"
 msgstr ""
 

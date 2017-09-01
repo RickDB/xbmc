@@ -181,7 +181,7 @@ void CGUIDialogLAVVideo::InitializeSettings()
 
   // HW ACCELERATION
   entries.clear();
-  for (unsigned int i = 0; i < 5; i++)
+  for (unsigned int i = 0; i < 6; i++)
     entries.emplace_back(80200 + i, i);
   AddList(groupHW, LAVVIDEO_HWACCEL, 80005, 0, lavSettings.video_dwHWAccel, entries, 80005);
 
@@ -195,45 +195,45 @@ void CGUIDialogLAVVideo::InitializeSettings()
 
   entries.clear();
   entries.emplace_back(80100, 0);
-  entries.emplace_back(80205, 1);
-  entries.emplace_back(80206, 2);
+  entries.emplace_back(80210, 1);
+  entries.emplace_back(80211, 2);
   AddList(groupSettings, LAVVIDEO_DEINTFILEDORDER, 80009, 0, lavSettings.video_dwDeintFieldOrder, entries, 80009);
 
   entries.clear();
   entries.emplace_back(80100, 0);
-  entries.emplace_back(80207, 1);
-  entries.emplace_back(80208, 2);
-  entries.emplace_back(80209, 3);
+  entries.emplace_back(80212, 1);
+  entries.emplace_back(80213, 2);
+  entries.emplace_back(80214, 3);
   AddList(groupSettings, LAVVIDEO_DEINTMODE, 80010, 0, (LAVDeintMode)lavSettings.video_deintMode, entries, 80010);
 
   // OUTPUT RANGE
   entries.clear();
-  entries.emplace_back(80214, 1);
-  entries.emplace_back(80215, 2);
-  entries.emplace_back(80216, 0);
+  entries.emplace_back(80219, 1);
+  entries.emplace_back(80220, 2);
+  entries.emplace_back(80221, 0);
   AddList(groupOutput, LAVVIDEO_RGBRANGE, 80004, 0, lavSettings.video_dwRGBRange, entries, 80004);
 
   entries.clear();
-  entries.emplace_back(80212, 0);
-  entries.emplace_back(80213, 1);
+  entries.emplace_back(80217, 0);
+  entries.emplace_back(80218, 1);
   AddList(groupOutput, LAVVIDEO_DITHERMODE, 80012, 0, lavSettings.video_dwDitherMode, entries, 80012);
 
   // DEINT HW/SW
   AddToggle(groupDeintHW, LAVVIDEO_HWDEINTMODE, 80006, 0, lavSettings.video_dwHWDeintMode);
   entries.clear();
-  entries.emplace_back(80210, 1);
-  entries.emplace_back(80211, 0);
+  entries.emplace_back(80215, 1);
+  entries.emplace_back(80216, 0);
   AddList(groupDeintHW, LAVVIDEO_HWDEINTOUT, 80007, 0, lavSettings.video_dwHWDeintOutput, entries, 80007);
 
   entries.clear();
   entries.emplace_back(70117, 0);
-  entries.emplace_back(80217, 1);
-  entries.emplace_back(80218, 2);
-  entries.emplace_back(80219, 3);
+  entries.emplace_back(80222, 1);
+  entries.emplace_back(80223, 2);
+  entries.emplace_back(80224, 3);
   AddList(groupDeintSW, LAVVIDEO_SWDEINTMODE, 80011, 0, lavSettings.video_dwSWDeintMode, entries, 800011);
   entries.clear();
-  entries.emplace_back(80210, 1);
-  entries.emplace_back(80211, 0);
+  entries.emplace_back(80215, 1);
+  entries.emplace_back(80216, 0);
   AddList(groupDeintSW, LAVVIDEO_SWDEINTOUT, 80007, 0, lavSettings.video_dwSWDeintOutput, entries, 80007);
 
   // BUTTON RESET

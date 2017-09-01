@@ -124,6 +124,7 @@ typedef enum LAVHWAccel {
   HWAccel_DXVA2,
   HWAccel_DXVA2CopyBack = HWAccel_DXVA2,
   HWAccel_DXVA2Native,
+  HWAccelDeviceD3D11,
   HWAccel_NB,              // Number of HWAccels
 } LAVHWAccel;
 
