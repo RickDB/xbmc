@@ -157,8 +157,13 @@ bool CChaptersManager::LoadChapters()
 
       if (SUCCEEDED(m_pIAMExtendedSeeking->GetMarkerName(i, &chapterName)))
       {
-        g_charsetConverter.wToUTF8(chapterName, infos->name);
-        SysFreeString(chapterName);
+		  if (chapterName)
+		  {
+			  g_charsetConverter.wToUTF8(chapterName, infos->name);
+			  SysFreeString(chapterName);
+		  }
+		  else
+			  infos->name = "Unknown chapter";
       }
       else
         infos->name = "Unknown chapter";
